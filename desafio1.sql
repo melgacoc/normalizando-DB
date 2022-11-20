@@ -159,3 +159,4 @@ DROP DATABASE IF EXISTS SpotifyClone;
     (7, 6),
     (9, 3),
     (10, 2);
+
