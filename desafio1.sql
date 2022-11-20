@@ -29,10 +29,10 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE TABLE SpotifyClone.albums(
    album_id INT NOT NULL AUTO_INCREMENT,
    album_title VARCHAR(100) NOT NULL,
-   artista_id INT NOT NULL,
+   artist_id INT NOT NULL,
    release_date YEAR NOT NULL,
   PRIMARY KEY (album_id),
-  FOREIGN KEY (artista_id)
+  FOREIGN KEY (artist_id)
     REFERENCES SpotifyClone.artists (artist_id)
   ) ENGINE = InnoDB;
 
@@ -100,14 +100,14 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('Blind Guardian'),
     ('Nina Simone');
 
-  INSERT INTO SpotifyClone.albums (album_title, artista_id, release_date)
+  INSERT INTO SpotifyClone.albums (album_title, artist_id, release_date)
   VALUES
     ('Renaissance', 1, 2022),
     ('Jazz', 2, 1978),
     ('Hot Space', 2, 1982),
     ('Falso Brilhante', 3, 1998),
     ('Vento de Maio', 3, 2001),
-    ('QVVJFA', 4, 2003),
+    ('QVVJFA?', 4, 2003),
     ('Somewhere Far Beyond', 5, 2007),
     ('I Put A Spell On You', 6, 2012);
 
