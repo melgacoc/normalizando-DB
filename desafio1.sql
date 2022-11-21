@@ -121,7 +121,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('Como Nossos Pais', 105, 4),
     ('O Medo de Amar é o Medo de Ser Livre', 207, 5),
     ('Samba em Paris', 267, 6),
-    ("The Bard's Song", 244, 7),
+    ("The Bard’s Song", 244, 7),
     ('Feeling Good', 100, 8);
 
   INSERT INTO SpotifyClone.reproduction (user_id, album_id, track_id, reproduction_day, reproduction_hour)
