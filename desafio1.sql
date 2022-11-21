@@ -114,9 +114,9 @@ DROP DATABASE IF EXISTS SpotifyClone;
   INSERT INTO SpotifyClone.tracks (track_name, track_duration, album_id)
   VALUES
     ('BREAK MY SOUL', 279, 1),
-    ("VIRGO'S GROOVE", 369, 1),
+    ("VIRGO’S GROOVE", 369, 1),
     ('ALIEN SUPERSTAR', 116, 1),
-    ("Don't Stop Me Now", 203, 2),
+    ("Don’t Stop Me Now", 203, 2),
     ('Under Pressure', 152, 3),
     ('Como Nossos Pais', 105, 4),
     ('O Medo de Amar é o Medo de Ser Livre', 207, 5),
